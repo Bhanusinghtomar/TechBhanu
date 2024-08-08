@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function bhanu (){
+                let name= document.getElementById("removeid").value;
+                let a= document.getElementById("remoid").value;
+                let b=0;
+                for(let i=0; i<=name.length; i++){
+                    if(name.charAt(i)==a);
+                }
+
+                    b=name.split(a).join('');
+                document.write(b);   
+            
+        }
+        </script>
+    </head>
+   <body>
+     Word:
+    <input type="text" id="removeid"><br><br>
+     Letter:
+    <input type="text" id="remoid"><br><br>
+    <button onclick="bhanu()">press here</button>
+   </body> 
+</html>
+
+
+
+

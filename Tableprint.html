@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+        function bhanu(){
+             let b="";
+            let a=parseInt(document.getElementById("tid").value);
+            for(let i=1; i<=10; i++){
+              b=a*i;
+              document.write(b+"<br>");
+            }
+        }
+        </script>
+    </head>
+   <body>
+    Number:
+    <input type="text" id="tid">
+    <button onclick="bhanu()">press the button</button>
+   </body> 
+</html>

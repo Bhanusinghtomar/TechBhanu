@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <heead>
+        <script>
+          function bhanu(){
+          let a =parseInt(document.getElementById("pid").value);
+           for( let i=2; i<=a; i++){
+             if(a%i==0){
+              i++;
+             }document.write(i);
+            }
+        }
+
+        </script>
+    </heead>
+  <body>
+    Number:
+    <input type="text" id="pid"><br><br>
+    <button onclick="bhanu()">show me result</button>
+  </body>  
+</html>

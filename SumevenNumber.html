@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <script>
+          function bhanu(){
+            let b=0;
+            let a=parseInt(document.getElementById("sumid").value);
+            for(let i=0; i<=a; i++){
+               if(i%2==0){
+                    b+=i;
+                }
+            } document.write(b);
+          }
+        </script>
+    </head>
+   <body>
+    number:
+    <input type="text" id="sumid">
+    <button onclick="bhanu()">Tap this button</button>
+   </body> 
+</html>

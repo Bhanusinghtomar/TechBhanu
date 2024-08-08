@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+              function bhanu(){
+                 let n='';
+                let a=document.getElementById("numberid").value;
+                for(let i=a.length-1; i>=0; i--){
+                    n += a[i];
+                } 
+                document.write(n);
+            }
+              
+        </script>
+    </head>
+   <body>
+     name:
+    <input type="number" id="numberid"><br><br>
+    <button onclick="bhanu()">press the here</button>
+   </body> 
+</html>

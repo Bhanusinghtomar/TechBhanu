@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+             function bhanu (){
+                let name= document.getElementById("occurrid").value;
+                let a= document.getElementById("occuid").value;
+                let b=0;
+                for(let i=0; i<=name.length; i++){
+                  if(name.charAt(i)==a){
+                 b++;
+                 
+                }
+               }alert(b);
+             }
+            
+        </script>
+    </head>
+   <body>
+    Number:
+    <input type="text" id="occurrid"><br><br>
+    Word:
+    <input type="text" id="occuid"><br><br>
+    <button onclick="bhanu()">press here</button>
+   </body> 
+</html>
+

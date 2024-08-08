@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function bhanu(){
+                let b=''
+                let a=parseInt(document.getElementById("diviserid").value);
+                for(let i=0; i<=a; i++){
+                     if(a%i==0){
+                     b+=i  
+                    }
+                }document.write(b);
+            }
+        </script>
+    </head>
+   <body>
+    Number:
+    <input type="text" id="diviserid"><br><br>
+    <button onclick="bhanu()">press here</button>
+   </body> 
+</html>
